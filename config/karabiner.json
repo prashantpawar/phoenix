@@ -1,13 +1,13 @@
 {
-  "title": "Caps Lock -> Hyper/F18",
+  "title": "Left Ctrl -> Hyper/F18",
   "rules": [
     {
-      "description": "Remap Caps Lock to Hyper (ctrl + alt + cmd) if used in combination with other keys, otherwise map it to F18.",
+      "description": "Remap Left Ctrl to Hyper (ctrl + alt + cmd) if used in combination with other keys, otherwise map it to F18.",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "caps_lock",
+            "key_code": "left_control",
             "modifiers": {
               "optional": [
                 "any"
